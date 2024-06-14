@@ -21,4 +21,18 @@ class Game:
         pass
     def check_collisions():
         pass
+
+    def leader_board():
+        pass
+
+
+class Score:
+    def __init__(self):
+        pass
+
+    def update_score():
+        pass
+
+    def update_leader_board():
+        pass
     
