@@ -4,7 +4,14 @@ import random
 pygame.init()
 
 
+
+
+
 class Game:
+    width = 300
+    height = 500
+
+    
     def __init__(self, screen, clock, bird, pipes, score):
         self.screen = screen
         self.clock = clock
@@ -35,4 +42,3 @@ class Score:
 
     def update_leader_board():
         pass
-    
